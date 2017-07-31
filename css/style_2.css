@@ -1,0 +1,254 @@
+@font-face {
+  font-family: 'Austie';
+
+  src: url('../fonts/Austie.ttf');
+}
+body{
+		margin: 0;
+		padding: 0;
+	}
+div .jumbotron
+	{
+		//background-image: url("../images/linenback.png");
+		background-color: white;
+		color: #803F5F;
+		padding-top: 5px;
+		font-size: 2em;
+		height: 80%;
+		//font-family: Austie;
+	}
+    .logo1
+	{
+		background-image: url("../images/sgsLogo.png");
+		border: 1px solid black;
+		width: 146px;
+		height: 150px;
+		display: block;
+	}
+	.navbar-brand
+	{
+		color: white;
+	}
+	#welcome
+	{
+		font-size: 12pt;
+		margin: auto;
+		color: white;
+		max-width: 250px;
+	}
+	.navbar-default
+	{
+		background-color: #803F5F;
+		color: white;
+		border-radius: 0;
+		padding: 15px;
+		border-style: none;
+	}
+	#active
+	{
+		background-color: white;
+		color: #803F5F;
+	}
+	#togglebtn
+	{
+		color: white;
+		border-color: white;
+	}
+	#togglebtn:hover
+	{
+		background-color: lightgreen;
+		border-color: white;
+	}
+	#togglebtn:active
+	{
+		background-color: orange;
+		border-color: white;
+	}
+	#togglebtn:focus
+	{
+		background-color: orange;
+		border-color: white;
+	}
+	.graybox
+	{
+		background-color: white;
+		padding: 15px;
+		border: 5px solid white;
+		height: auto;
+		overflow: hidden;
+		text-align: center;
+	}
+	a
+	{
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	.badge
+	{
+		background-color: orange;
+		box-shadow: 2px 1.2px 1px 0px lightgray;
+	}
+	.whitebox
+	{
+		background-color: white;
+		margin-top: 20px;
+		border: 5px solid gray;
+		height: 200px;
+		text-align: center;
+	}
+	#dropdown1
+	{
+		height: auto;
+		color: white;
+		margin: 0px;
+		padding-left: 0px;
+	}
+	#dropdown1 .visible-xs
+	{
+		height: auto;
+		color: white;
+		padding-left: 5px;
+		margin: 0px;
+	}
+	#dropdown1 .glyphicon
+	{
+		height: auto;
+		color: white;
+		width: 1em;
+		text-align: center;
+	}
+	.dropdown-menu .dropdown_list a
+	{
+		color: white;
+		padding-top: 10px;
+		background-color: #803F5F;
+	}
+	.dropdown-menu .dropdown_list a:hover
+	{
+		color: #803F5F;
+		padding-top: 10px;
+		background-color: white;
+	}
+	.dropdown-menu .dropdown_list li a span:hover
+	{
+		color: white;
+	}
+	#inactive a
+	{
+		color: white;
+	}
+	#droppy
+	{
+		color: white;
+		font-weight: bold;
+	}
+	#droppy:hover
+	{
+		color: #803F5F;
+		font-weight: bold;
+		background-color: white;
+	}
+	.dropdown-menuactive
+	{
+		border: 5px solid blue;
+	}
+	.banner
+	{
+		background: url(../images/banner1.jpg) no-repeat 0px 0px;
+		min-height: 800px;
+		background-size: cover;
+	}
+	#feedback
+	{
+		height: auto;
+	}
+	.change_pass_heading
+	{
+		color: white;
+		background-color: #803F5F;
+		padding: 5px;
+	}
+	table thead
+	{
+		background-color: white;
+	}
+	.block_profile
+	{
+		//overflow: scroll;
+	}
+	.view_profile span
+	{
+		color: gray;
+		float: right;
+	}
+	.head_profile
+	{
+		color: white;
+		background: #803F5F;
+		width: 100%;
+		padding: 5px;
+		text-align: center;
+	}
+	#attendance_feedback
+	{
+		height: auto;
+	}
+	@media (max-width: 768px)
+	{
+   		.view_profile
+   		{
+    		font-size: 15px;
+  		}
+	}
+	.choicebox
+	{
+		font-size: 16px;
+		color: #8D8D8D;
+		border: 1px solid #803F5F;
+		border-radius: 0;
+		height: 45;
+	}
+	label small
+	{
+		font-size: 16px;
+	}
+	.due_alert
+	{
+		font-size: 15px;
+	}
+	.label
+	{
+		font-size: 18px;
+	}
+	.btn-info
+	{
+		background-color: #803F5F;
+		border: none;
+		border-radius: 0;	
+	}
+	.btn-info:hover
+	{
+		background-color: #803F55;
+		border: none;
+		border-radius: 0;	
+	}
+	.link-tag a
+	{
+		color: #803F5F;
+		font-size: 1em;
+	}
+	.link-tag a:hover
+	{
+		color: #aaa;
+		font-size: 1em;
+	}
+	#logout
+	{
+		background-color: #fff;
+		color: #803F5F;
+	}
+	#logout:hover
+	{
+		background-color: #803F5F;
+		color: #FFF;
+	}

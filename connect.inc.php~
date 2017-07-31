@@ -1,0 +1,15 @@
+<?php
+$mysql_username = 'rodot';
+$mysql_password = '';
+$mysql_db = 'CollegeDatabase';
+$mysql_host = 'localhost';
+if(!mysql_connect($mysql_host,$mysql_username,$mysql_password)||!mysql_select_db($mysql_db))
+{
+	echo 'Couldn\'t connected<br>';
+	die();
+}
+else
+{
+	echo 'connected<br>';
+}
+?>

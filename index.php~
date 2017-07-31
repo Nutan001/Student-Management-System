@@ -1,0 +1,5 @@
+<?php
+	require 'connect.inc.php';
+	require 'main.inc.php';
+	include 'logincheck.php';
+?>
